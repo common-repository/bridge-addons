@@ -1,0 +1,40 @@
+.bb-bridge-image {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.bb-bridge-image img {
+	vertical-align: bottom;
+}
+
+.bb-bridge-image .bb-bridge-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+}
+
+.bb-bridge-overlay-text {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	text-align: center;
+	color: #fff;
+	padding: 0 5%;
+	transform: translateY(-50%);
+	opacity: 0;
+	width: 100%;
+}
+
+.bb-bridge-image:hover .bb-bridge-overlay-text {
+	opacity: 1;
+}
+
+.bb-bridge-image:hover .bb-bridge-overlay {
+	opacity: 1;
+}

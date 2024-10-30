@@ -1,0 +1,35 @@
+.bb-bridge-info-box {
+	display: block;
+	text-align: center;
+	padding: 30px 20px;
+}
+
+.bb-bridge-info-box i {
+	display: inline-block;
+	margin-bottom: 20px;
+	font-size: 36px;
+	width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.bb-bridge-info-box i:before {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+.dashicons-before::before {
+	font-size: 36px;
+}
+
+.bb-bridge-info-box h3 {
+	color: #000000;
+}
+
+.bb-bridge-info-box p {
+	color: #555555;
+}
+
+.bb-bridge-info-box a {
+	color: #000000;
+}

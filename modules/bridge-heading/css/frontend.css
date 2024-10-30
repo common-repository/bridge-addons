@@ -1,0 +1,12 @@
+.bb-bridge-heading span {
+	display: block;
+}
+
+.bb-bridge-heading h1 a,
+.bb-bridge-heading h2 a,
+.bb-bridge-heading h3 a,
+.bb-bridge-heading h4 a,
+.bb-bridge-heading h5 a,
+.bb-bridge-heading h6 a {
+	color: inherit;
+}

@@ -1,0 +1,85 @@
+.bb-bridge-team-member span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.bb-bridge-team-member h3 {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.bb-bridge-team-member-image {
+	position: relative;
+}
+
+.bb-bridge-team-member-image img {
+	vertical-align: bottom;
+}
+
+.bb-bridge-team-member-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background: #000000;
+	transition: all 0.2s ease-in-out;
+}
+
+.bb-bridge-team-member-image:hover .bb-bridge-team-member-overlay {
+	opacity: 0.5;
+}
+
+.bb-bridge-team-member-social-profile {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	text-align: center;
+	color: #fff;
+	padding: 0 5%;
+	transform: translateY(-50%);
+	opacity: 0;
+	width: 100%;
+	font-size: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.bb-bridge-team-member-image:hover .bb-bridge-team-member-social-profile {
+	opacity: 1;
+}
+
+.bb-bridge-team-member-social-profile li {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 8px;
+	text-align: center;
+}
+
+.bb-bridge-team-member-social-profile li a {
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	display: block;
+}
+
+.bb-bridge-team-member-social-profile li a i {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+}
+
+.bb-bridge-team-member-social-profile li a i:before {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.bb-bridge-team-member-social-profile li a:hover {
+	background: #ffffff;
+	color: #000000;
+}

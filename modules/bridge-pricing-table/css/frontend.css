@@ -1,0 +1,31 @@
+.bb-bridge-pricing-table {
+	text-align: center;
+}
+
+.bb-bridge-pricing-table ul {
+	list-style: none;
+}
+.bb-bridge-pricing-table a {
+	display: block;
+}
+
+.bb-bridge-pricing-table h4 {
+	text-transform: uppercase;
+	padding: 30px 30px 0;
+	font-size: 22px;
+}
+
+.bb-bridge-pricing-table .price {
+	font-size: 32px;;
+	display: inline-block;
+	padding: 20px 0;
+}
+
+.bb-bridge-pricing-table li,
+.bb-bridge-pricing-table a {
+	padding: 15px 30px;
+}
+
+.bb-bridge-pricing-table li:nth-child(2n) {
+	background: rgba(255,255,255,0.1);
+}

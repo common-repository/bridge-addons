@@ -1,0 +1,7 @@
+.bb-bridge-icon-list {
+	list-style: none;
+}
+
+.bb-bridge-icon-list li i {
+	margin-right: 10px;
+}
